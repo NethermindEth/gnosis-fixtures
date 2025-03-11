@@ -43,7 +43,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xf59631a3b918403e78b022eb89c39ee4bc583e6d10be6c8748fab640001d0118",
+                    "hash": "0x31eaa2b9a2083553ad550895ecb299243ef9243a7962843ce03b2b06507d267a",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf901e3800a8399a91c94000000000000000000000000000000000000100080b9018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca071f8e4cac6f09524783f56f51c02795b864d2d4c021615bcd8ad64bcdde0ba85a04bf15f1391c7916b3b9eb417f932f5a658f42dc4bb971c66f33e3837d3ffbba3",
                     "indexes": {
@@ -73,6 +73,12 @@
                             "balance": "0x074c07",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x1106bb",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -90,14 +96,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0xea78f0bd8ed71b422723bac76e02cd84ee21de016fbc54af0831c9f92d8fe8d4",
+            "hash": "0xd1ca84c567f7f4783057fe86f462ba51f1e6bb1100224f822e57819a9915fda2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_PAIRING precompile using different call types.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_pairing.py#L127",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_pairing.py#L123",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -147,7 +154,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x1f0bcd5b35fed673bd1f25a296d753ad520bd61d87238f522434963082153a0a",
+                    "hash": "0x8dc500d8f418d8eb23ca3e5f9bd60d2847bedffcfd5a42919d05167ad2854a9c",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf901e3800a8399a91c94000000000000000000000000000000000000100080b9018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca071f8e4cac6f09524783f56f51c02795b864d2d4c021615bcd8ad64bcdde0ba85a04bf15f1391c7916b3b9eb417f932f5a658f42dc4bb971c66f33e3837d3ffbba3",
                     "indexes": {
@@ -177,6 +184,12 @@
                             "balance": "0x074bfe",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x1106a6",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -194,14 +207,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x00f1b70f062077e8fd8e38d887067dc7ed25979751eadec64a36e63ac91d5882",
+            "hash": "0x7c822c66ac2a8ece49946d2f229a37c0fba9f68d0fae20dd3167ad803c97911d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_PAIRING precompile using different call types.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_pairing.py#L127",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_pairing.py#L123",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -251,7 +265,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x85cbba68eb818e8da5257f620c163b87a18ae0d40610f4ae731d8c6a61b8ca73",
+                    "hash": "0xa5d46a91e5c6024218854c7c0f7975c22fdbbea2a2a39fa4370862c4852c2568",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf901e3800a8399a91c94000000000000000000000000000000000000100080b9018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca071f8e4cac6f09524783f56f51c02795b864d2d4c021615bcd8ad64bcdde0ba85a04bf15f1391c7916b3b9eb417f932f5a658f42dc4bb971c66f33e3837d3ffbba3",
                     "indexes": {
@@ -281,6 +295,12 @@
                             "balance": "0x074bfe",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x1106a6",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -298,14 +318,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x5f3f1f854051114c40ca86b6237326fc1ad58b8f4672d31bfb413980b1365459",
+            "hash": "0xc3cf9cdd227964319cdbfe207c1411f437bb0f372913ed4244711de85d90fa8e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_PAIRING precompile using different call types.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_pairing.py#L127",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_pairing.py#L123",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"

@@ -43,7 +43,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x1effcf3fd526a04bd2159662cbe28c9d6bacd03b4540432242e1aa6d051ca4d9",
+                    "hash": "0x6f5956644dddb7349f1329df5e07bb4121b4f6c793514e5eca6fea0441aaf943",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf90183800a8398ee6494000000000000000000000000000000000000100080b9012000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca0bf1f407e354cddcddcfc4661f687f79996d5464a5d92ef541a8847a2785c6406a00544a306699c5120f469487a79b4589d7fa38dffcbbf08153b63b6ca6bc09d7b",
                     "indexes": {
@@ -73,6 +73,12 @@
                             "balance": "0x0517e6",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x0be26e",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -90,14 +96,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x533c83adcc2abe2312cf042a8f77cd38e63f2755f19aa32a38b087abf09287ac",
+            "hash": "0xc9c834153108582155af3179d832f2f5b7bd3bd7ab70ef51ee461da76dd2fe49",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_G2MUL using different call types.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2mul.py#L239",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2mul.py#L233",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -147,7 +154,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x5f8d59712b6e7500172dec95d4fbe6aa61c030d515022d87c64528589670d546",
+                    "hash": "0x1417c07402fee2c86f1dbc76ab81e351821ce3c1cc3d388c9917fc07110f22b4",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf90183800a8398ee6494000000000000000000000000000000000000100080b9012000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca0bf1f407e354cddcddcfc4661f687f79996d5464a5d92ef541a8847a2785c6406a00544a306699c5120f469487a79b4589d7fa38dffcbbf08153b63b6ca6bc09d7b",
                     "indexes": {
@@ -177,6 +184,12 @@
                             "balance": "0x0517dd",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x0be259",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -194,14 +207,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x41a3e0e8ef00e96645cd7aaf7b738bf5ad89ad13be9cd04c539b0020ab2d6993",
+            "hash": "0x676d073ee43ada996ef5667122e03dffb8ece7d9576129ca9c3740bb46714d1a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_G2MUL using different call types.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2mul.py#L239",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2mul.py#L233",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -251,7 +265,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x77188237b7063ab4351c6f2e16b6fc6234ebbe3651bb79939d0205cef8bc7bd9",
+                    "hash": "0xefb61a4f05eff5f47cf86f892e75b3f33580c8d4e6c228661a192460c8288f42",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf90183800a8398ee6494000000000000000000000000000000000000100080b9012000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca0bf1f407e354cddcddcfc4661f687f79996d5464a5d92ef541a8847a2785c6406a00544a306699c5120f469487a79b4589d7fa38dffcbbf08153b63b6ca6bc09d7b",
                     "indexes": {
@@ -281,6 +295,12 @@
                             "balance": "0x0517dd",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x0be259",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -298,14 +318,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x1d7e23f711471ccde89247bf224b98bb9cb054a670619bb8c47983efcc328dba",
+            "hash": "0x56b71fee8ecb45544b052c583dc76e36c5cc44c2dbd1e9341f87f6f474cbb7d6",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_G2MUL using different call types.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2mul.py#L239",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2mul.py#L233",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"

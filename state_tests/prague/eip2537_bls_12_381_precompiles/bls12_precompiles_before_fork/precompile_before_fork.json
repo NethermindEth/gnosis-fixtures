@@ -43,7 +43,7 @@
         "post": {
             "Cancun": [
                 {
-                    "hash": "0xaef7b129b4eaf03b3611f69f73fb048bfea9bbc0ae258dc026ea40ac0ac351c8",
+                    "hash": "0x6236c8f818614e9f6bf91e68e4f0049892eb08184db3afcc2dada4323a551449",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf90163800a839897f794000000000000000000000000000000000000100080b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca00c2d1523a7d4a4b68c23cd164d3605664f80bafd806b6f0fa21cb67082c1f958a069a93b96a40b88d50ad7a76c987dbedc5ff1828a5b97dc687a45df1c8c176655",
                     "indexes": {
@@ -72,6 +72,12 @@
                             "balance": "0x0341e8",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x0799c8",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -84,14 +90,15 @@
                     "max": "0x06",
                     "baseFeeUpdateFraction": "0x32f0ed"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0xb7705e78feab8bfa7337a394ac470a29b961f5bb634ac97ad1820b725956da41",
+            "hash": "0x5b70e923ecf1456ba64278e6d185f9eaf49ba2294e5f218db987522d7b451b9f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest all BLS12 precompiles before the Prague hard fork is active.\n\nThe call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -141,7 +148,7 @@
         "post": {
             "Cancun": [
                 {
-                    "hash": "0x4ac177b51b7152230d55f06517b6dbbed8f038975d70e06cf3d7367f3afa1f4f",
+                    "hash": "0x7f5a09a5b38b70d76e9eb8fa79095a94ef3bfe877dd3a42ad74f9b62b7943dc3",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf90102800a8398c56094000000000000000000000000000000000000100080b8a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca03e715c5d915d0929d2ac0a4e4535763c42a2fe5b679e8e50735e7a117c5d3c1ba017bfd22dd2a8d58ed9845a8f9bd0f3db9e2fe8931c1be4245d15403efc68609e",
                     "indexes": {
@@ -170,6 +177,12 @@
                             "balance": "0x033d32",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x078eca",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -182,14 +195,15 @@
                     "max": "0x06",
                     "baseFeeUpdateFraction": "0x32f0ed"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x8fec85136ebb828b093ea58f7904a4f43887047319027877ffee230ba56407db",
+            "hash": "0xd3a3d40302ed1b93004e42d53dbfbcdaec8773f5405264e202cb69f7a489ae90",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest all BLS12 precompiles before the Prague hard fork is active.\n\nThe call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -239,7 +253,7 @@
         "post": {
             "Cancun": [
                 {
-                    "hash": "0xc3a7c9e1a2527b75c763a1df63f9fee79366f825517f42d4ffbc85188092595e",
+                    "hash": "0x1ad8a59cbc057c522b717b9e4977c85e7dae4511b6531f0e6dc784f8ca441d09",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf90263800a839898d894000000000000000000000000000000000000100080b90200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eba0cc33e4827f2a9fdfe02780f0bb6ec2c59bf47f70ab193c4dd5c7bec8f8f238d5a00af5ff3ca72a1b78cb7fc4d668e560dbab37ab51b72486f2743e7d2bce1693b7",
                     "indexes": {
@@ -268,6 +282,12 @@
                             "balance": "0x034e78",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x07b718",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -280,14 +300,15 @@
                     "max": "0x06",
                     "baseFeeUpdateFraction": "0x32f0ed"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x1ae19834da41500ee68dcef542a4bf27f753656680ba4024112e61b0004c7456",
+            "hash": "0x3deba6cfbd09ac9fb660175a95cfddf208c555f11a2e8cf6d28b9b2df9cec01b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest all BLS12 precompiles before the Prague hard fork is active.\n\nThe call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -337,7 +358,7 @@
         "post": {
             "Cancun": [
                 {
-                    "hash": "0xbfeb2c1d3418f21bff70689a4d54a73f5312107653483c94da52a2edb6986e6b",
+                    "hash": "0x49c434687435c1fe16f49bf35215ab8a865ed199067af90198b4c61d817350e0",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf90183800a8398ee6494000000000000000000000000000000000000100080b9012000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca0bf1f407e354cddcddcfc4661f687f79996d5464a5d92ef541a8847a2785c6406a00544a306699c5120f469487a79b4589d7fa38dffcbbf08153b63b6ca6bc09d7b",
                     "indexes": {
@@ -366,6 +387,12 @@
                             "balance": "0x03437a",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x079d72",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -378,14 +405,15 @@
                     "max": "0x06",
                     "baseFeeUpdateFraction": "0x32f0ed"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x9584b75b8cd3cdeb79ccb6e96a5e0480a3a41707931739399200b77267886064",
+            "hash": "0xf4032c31c194593faad370da987cec164971f00cf1ef12a22fc89ba6fe70967a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest all BLS12 precompiles before the Prague hard fork is active.\n\nThe call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -435,7 +463,7 @@
         "post": {
             "Cancun": [
                 {
-                    "hash": "0x177610da752e1a575e453b42abf9c47c7599cde35d0eda204bc6c6afa81c43a0",
+                    "hash": "0x720ac9f0128606c184cf104b2ac227eadeccfd97cfbfac966ba0b5694f137e9d",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf8e2800a8398f37894000000000000000000000000000000000000100080b880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eba0b6e83e36be1a0d8ccca6125aca1f7599700687241b507df4b99e30936485fcd4a0257a657d1dab8537496247ba7aeb71dd4ecf232f7befaa645770ada32941f56a",
                     "indexes": {
@@ -464,6 +492,12 @@
                             "balance": "0x033ba0",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x078b20",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -476,14 +510,15 @@
                     "max": "0x06",
                     "baseFeeUpdateFraction": "0x32f0ed"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x0a0dcfa1151113368435fb9323ac540c1f0310764e95eef50ed119bbce2edb1c",
+            "hash": "0x7fd8dff56afe5db59f6f78a645db646855b22350c9717ae21d26a10b5efbf6f6",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest all BLS12 precompiles before the Prague hard fork is active.\n\nThe call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -533,7 +568,7 @@
         "post": {
             "Cancun": [
                 {
-                    "hash": "0x68f3611d3765b9056cb6b75d2696ab2d3579f7ffc6ae28512af77a694a8bb153",
+                    "hash": "0x00ab0104fa190127e6853c72749fa5a63284f66883976e5c1855b352c7c478af",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf8a2800a8398abfc94000000000000000000000000000000000000100080b8400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca028abe6b4fcc8f6482e94f5d928b81e9aeaff0ef08c67aebaf644e07633c68738a0266ce67827cd08f20ebde976aa56e80e06f87c417dbedfe75222427ad3b09ada",
                     "indexes": {
@@ -562,6 +597,12 @@
                             "balance": "0x03387c",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x0783cc",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -574,14 +615,15 @@
                     "max": "0x06",
                     "baseFeeUpdateFraction": "0x32f0ed"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0xe967c005170f38f473c347bfc5a70ffd0192893980fdaa9141998ae2e0aa82cb",
+            "hash": "0xa026df9de94558ebf8e5b029cd471bce3c5cf1369b674dae93506ff992758c6c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest all BLS12 precompiles before the Prague hard fork is active.\n\nThe call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -631,7 +673,7 @@
         "post": {
             "Cancun": [
                 {
-                    "hash": "0x4e717f8202339c57ee50b7c6b46e7a320f3bfd06e803b827f6569727d338e661",
+                    "hash": "0x9503c37ff59c505538cfe1f59ca794440959465070a29d277714f4962b0e19d5",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf901e3800a8399a91c94000000000000000000000000000000000000100080b9018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca071f8e4cac6f09524783f56f51c02795b864d2d4c021615bcd8ad64bcdde0ba85a04bf15f1391c7916b3b9eb417f932f5a658f42dc4bb971c66f33e3837d3ffbba3",
                     "indexes": {
@@ -660,6 +702,12 @@
                             "balance": "0x034830",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x07a870",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -672,14 +720,15 @@
                     "max": "0x06",
                     "baseFeeUpdateFraction": "0x32f0ed"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x239df4b9a9ddce5767ce9537faaf2b35e3357eddf4b7226c763b69f4b4afcca3",
+            "hash": "0xdbe5f751eb5c992e69be35562d196aa72369b295bab9553f98afcc94c2dc10a2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest all BLS12 precompiles before the Prague hard fork is active.\n\nThe call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"

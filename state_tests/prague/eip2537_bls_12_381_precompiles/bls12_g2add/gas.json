@@ -43,7 +43,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xc4bd7f12bd20c3a468e3a32c951c78ebeedf441998142b82a9f3eac27ccaac7f",
+                    "hash": "0x814d205f32b99bf57dcbf60b546499cdfc5b7242ae550a3b139227416cb521a4",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf90263800a839898d894000000000000000000000000000000000000100080b90200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eba0cc33e4827f2a9fdfe02780f0bb6ec2c59bf47f70ab193c4dd5c7bec8f8f238d5a00af5ff3ca72a1b78cb7fc4d668e560dbab37ab51b72486f2743e7d2bce1693b7",
                     "indexes": {
@@ -73,6 +73,12 @@
                             "balance": "0x042240",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x09a540",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -90,14 +96,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x9d2c9ee982bdfbfcae5473a4fa8cb9a31bd7545e23a095c5916daf2a35bc19e6",
+            "hash": "0xc2f376e85d43b4758904445b7d736f87a05c7be82ab3c43852863efae31c1bdb",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_G2ADD precompile gas requirements.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2add.py#L176",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2add.py#L172",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -147,7 +154,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x9b2410e85560ff1c7ced25f465fc5fe611fb58663f851a155de4ca5afee2db04",
+                    "hash": "0xe83b77e92e9123f64cd416cd5c3d45f9d090d62accb63dbe795b8679a96b5b9d",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf90263800a839898d894000000000000000000000000000000000000100080b90200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eba0cc33e4827f2a9fdfe02780f0bb6ec2c59bf47f70ab193c4dd5c7bec8f8f238d5a00af5ff3ca72a1b78cb7fc4d668e560dbab37ab51b72486f2743e7d2bce1693b7",
                     "indexes": {
@@ -173,6 +180,12 @@
                             "balance": "0x014b6e",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x030556",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -190,14 +203,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x7b598f9523ca6caf94471be6a29e4ee28432b6a36b8278ca2b2da89db5c1855a",
+            "hash": "0x37bb9ad2b50ee6bee3be57a6989e3ce1f2d95aaea43f9fa0b6eb81ada6a31772",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_G2ADD precompile gas requirements.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2add.py#L176",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g2add.py#L172",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"

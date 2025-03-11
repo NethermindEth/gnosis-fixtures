@@ -43,7 +43,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x9756a8cd3712d8b0a4ea8b78454826a30c5a138e3023edbf2592addf6764e7a0",
+                    "hash": "0xb8b53fef8cfac95bb84de96bf91d9ee374851b65f70bdff8d2c266026f938376",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf8a2800a8398abfc94000000000000000000000000000000000000100080b8400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca028abe6b4fcc8f6482e94f5d928b81e9aeaff0ef08c67aebaf644e07633c68738a0266ce67827cd08f20ebde976aa56e80e06f87c417dbedfe75222427ad3b09ada",
                     "indexes": {
@@ -73,6 +73,12 @@
                             "balance": "0x044556",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x09f71e",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -90,14 +96,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0xef183a5586f6876aba167cff6ea6d226cf7ca1008dcb7862513ba3d7f50182cf",
+            "hash": "0x0813454ba85987cf9d572eae327e19d35a097351a7f7417c0a368df4cc228876",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_MAP_FP_TO_G1 precompile gas requirements.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp_to_g1.py#L97",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp_to_g1.py#L93",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -147,7 +154,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x0c5fbd1c1c128ba15a97fc77d1d0d5227e9347a3a9d58d36279d812844f02f00",
+                    "hash": "0x443281c03ed9499f920b776b96087cf4459ffb77a529c594619260ff52c8562e",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf8a2800a8398abfc94000000000000000000000000000000000000100080b8400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eca028abe6b4fcc8f6482e94f5d928b81e9aeaff0ef08c67aebaf644e07633c68738a0266ce67827cd08f20ebde976aa56e80e06f87c417dbedfe75222427ad3b09ada",
                     "indexes": {
@@ -173,6 +180,12 @@
                             "balance": "0x016ede",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x035806",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -190,14 +203,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x345d3bec8b389545a0687d496082f2c8e1147b516f467c0a5cef564bd242ba23",
+            "hash": "0xf773799443e72fd9b1e0a57e039f256433d59b89ed2e565bb26e285bf87d8f78",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_MAP_FP_TO_G1 precompile gas requirements.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp_to_g1.py#L97",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp_to_g1.py#L93",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"

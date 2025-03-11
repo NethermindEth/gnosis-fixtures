@@ -43,7 +43,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x625d1855dd767320c051e6d02b85a6ecbeda87dc94603648781e65ba0ecedf0f",
+                    "hash": "0xa9f7de74bfe8edc7fbe78d54a46fd395bcb35dbbf1fb38a7fdc44e3209456b93",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf862800a8405f5e100940000000000000000000000000000000000001000808081eba09451c559ef94735efcd8f8d0fe1c4c585b0071fd1388992cf6d665c278e95633a02a95b8bbf04c134b15f350c42f0accb97624d4cae89139ab449738785a53412c",
                     "indexes": {
@@ -69,6 +69,12 @@
                             "balance": "0x11e1a300",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x29b92700",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -86,14 +92,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x5e7478fb93a0a5e84e8bceb18d19ae0ecaf01f9efdc3f493fb4f079d32d5e75a",
+            "hash": "0x314ccac4d2616b78ce9f9057a56c4ab9041e70f834034300e8a15fb26101fdba",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest the BLS12_G2MSM discount gas table in full, by expecting the call to fail for\nall possible input lengths provided because they are too long or short, or zero length.\n\nIf any of the calls succeeds, the test will fail.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L317",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L307",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -143,7 +150,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xf5efe993c8b316e06535b60eaea6f944a4c060fa1768acb4a3b28e903a369aba",
+                    "hash": "0xb2bb926fd49223304a0d9cbadbcb5d1e51ad4088d6d87c8a5813812fe6390a06",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf862800a8405f5e100940000000000000000000000000000000000001000808081eba09451c559ef94735efcd8f8d0fe1c4c585b0071fd1388992cf6d665c278e95633a02a95b8bbf04c134b15f350c42f0accb97624d4cae89139ab449738785a53412c",
                     "indexes": {
@@ -169,6 +176,12 @@
                             "balance": "0x11e1a300",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x29b92700",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -186,14 +199,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x003cce2eff9a8357cf1ee8f07132c9ab3a793957dfef0cca3691e18bb6095bb7",
+            "hash": "0x91338c6175d28ff17e1d042f4cb444ec211c710722f2ad389780a9e63d3e2822",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest the BLS12_G2MSM discount gas table in full, by expecting the call to fail for\nall possible input lengths provided because they are too long or short, or zero length.\n\nIf any of the calls succeeds, the test will fail.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L317",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L307",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -243,7 +257,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x0c0ded4790924cc8fd8934218e558b2200c29a58a620fbcd732c22a8bc3bf8da",
+                    "hash": "0xd641ddd4cd4a0fa411f9d74f85519622d8d7bbc3045ace8f643ac5f2129e9ee5",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf862800a8405f5e100940000000000000000000000000000000000001000808081eba09451c559ef94735efcd8f8d0fe1c4c585b0071fd1388992cf6d665c278e95633a02a95b8bbf04c134b15f350c42f0accb97624d4cae89139ab449738785a53412c",
                     "indexes": {
@@ -269,6 +283,12 @@
                             "balance": "0x021900",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x04e500",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -286,14 +306,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x26fa3420303a9b37b67ca241cafbc1afb964e28346226054d10b46d26e8081d5",
+            "hash": "0x59d5cc1091a64fefcc97cf52a9368d6c810011bd8fc904e748cd75671b98520e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\n\nTest the BLS12_G2MSM discount gas table in full, by expecting the call to fail for\nall possible input lengths provided because they are too long or short, or zero length.\n\nIf any of the calls succeeds, the test will fail.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L317",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L307",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"

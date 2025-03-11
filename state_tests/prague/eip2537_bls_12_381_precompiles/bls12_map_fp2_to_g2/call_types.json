@@ -43,7 +43,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xc795ac73f86e9d43ce6606e432fe8cced25692b14f760327be898e28f4274e2d",
+                    "hash": "0x0972b7670bfded4ebed2956b93cdb0ce9693b6e12d607ce89301a00e89dcda80",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf8e2800a8398f37894000000000000000000000000000000000000100080b880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eba0b6e83e36be1a0d8ccca6125aca1f7599700687241b507df4b99e30936485fcd4a0257a657d1dab8537496247ba7aeb71dd4ecf232f7befaa645770ada32941f56a",
                     "indexes": {
@@ -73,6 +73,12 @@
                             "balance": "0x051f6c",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x0bf3fc",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -90,14 +96,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x7c5357ee204820d3f1e3efccf80508dae054e4153d677f0656f435e8738a5ba5",
+            "hash": "0x9dbd7cda030a81914ddc9f6bae1e651eebbb848415dad4134225cd582b21daeb",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_MAP_FP_TO_G2 precompile using different call types.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp2_to_g2.py#L145",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp2_to_g2.py#L139",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -147,7 +154,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xb36be152c3b85ad73306b9c5a0e6bdc4b82cbd9ff233a2d4e8f3310a6dd64433",
+                    "hash": "0x3206699788ca9b0918b509ce3f323d303898f9f712da9873288f0b37bfdfee67",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf8e2800a8398f37894000000000000000000000000000000000000100080b880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eba0b6e83e36be1a0d8ccca6125aca1f7599700687241b507df4b99e30936485fcd4a0257a657d1dab8537496247ba7aeb71dd4ecf232f7befaa645770ada32941f56a",
                     "indexes": {
@@ -177,6 +184,12 @@
                             "balance": "0x051f63",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x0bf3e7",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -194,14 +207,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0xf700470f70e82d899abf86155381d111374b70027f48de4f1bad10b9f66bcb1f",
+            "hash": "0x0e3e5e898c3fec0f1d976969b2459c2fc5c82d7a03e996a6208593f284a5f83a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_MAP_FP_TO_G2 precompile using different call types.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp2_to_g2.py#L145",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp2_to_g2.py#L139",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
@@ -251,7 +265,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x0241216b76e2c982ebf384cc1159534bb6e249a9fa494811a1eb9cfc1cc4cd40",
+                    "hash": "0x22dec647e2801e2aafa5ea3dd8d2c9146cde5b1e41c72d1fa0a1950ea54805bb",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0xf8e2800a8398f37894000000000000000000000000000000000000100080b880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000081eba0b6e83e36be1a0d8ccca6125aca1f7599700687241b507df4b99e30936485fcd4a0257a657d1dab8537496247ba7aeb71dd4ecf232f7befaa645770ada32941f56a",
                     "indexes": {
@@ -281,6 +295,12 @@
                             "balance": "0x051f63",
                             "code": "0x",
                             "storage": {}
+                        },
+                        "0x6bbe78ee9e474842dbd4ab4987b3cefe88426a92": {
+                            "nonce": "0x00",
+                            "balance": "0x0bf3e7",
+                            "code": "0x",
+                            "storage": {}
                         }
                     }
                 }
@@ -298,14 +318,15 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x64"
         },
         "_info": {
-            "hash": "0x965dae4f8a9a3d68ef8ad151c33f1023ca6802f74b6e786c50b785cbdd0415cc",
+            "hash": "0xf6acc6125971239afa7836c2d66b266e5ceea7cc49f13823755492c60380c583",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
             "description": "Test function documentation:\nTest the BLS12_MAP_FP_TO_G2 precompile using different call types.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/e18a80fcfe08ea55e08356573472a5bfea3b022f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp2_to_g2.py#L145",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp2_to_g2.py#L139",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
