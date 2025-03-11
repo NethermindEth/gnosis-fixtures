@@ -1,0 +1,21 @@
+{
+    "tests/prague/eip7702_set_code_tx/test_invalid_tx.py::test_empty_authorization_list[fork_Prague-transaction_test]": {
+        "result": {
+            "Prague": {
+                "intrinsicGas": "0x00",
+                "exception": "TransactionException.TYPE_4_EMPTY_AUTHORIZATION_LIST"
+            }
+        },
+        "txbytes": "0x04f86464808007830186a09400000000000000000000000000000000000000008080c0c080a087179cfc0d85e071dea62cbaa88b1ed0f8084f0e1ecf60ac06771d193a20d0f6a056d1012e22ac4fe78e255277aa2bb84e7169e3fb9481fc23de35d277fafc28a2",
+        "_info": {
+            "hash": "0x48014eacb91f5aaeeedab879fff5bf27c1977ab7747f5e4ed575c395fc1cba44",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
+            "description": "Test function documentation:\nTest sending a transaction with an empty authorization list.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip7702_set_code_tx/test_invalid_tx.py#L30",
+            "fixture_format": "transaction_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    }
+}

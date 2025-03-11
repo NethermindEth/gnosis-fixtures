@@ -1,0 +1,154 @@
+{
+    "tests/prague/eip7702_set_code_tx/test_invalid_tx.py::test_invalid_tx_invalid_nonce[fork_Prague-transaction_test-non_zero_address-nonce=2**256]": {
+        "result": {
+            "Prague": {
+                "intrinsicGas": "0x00",
+                "exception": "TransactionException.TYPE_4_INVALID_AUTHORIZATION_FORMAT"
+            }
+        },
+        "txbytes": "0x04f8e264808007830186a09400000000000000000000000000000000000000008080c0f87df87b64940000000000000000000000000000000000000001a101000000000000000000000000000000000000000000000000000000000000000001a0c92418c22e8744a5a8cfb0bd692bbaffd627059ca85108554e1829eaf31241aba0197c50695ccf96d4baeb94c9d34822feb0620ae75d0eb85a1b2035c9fa5e1be301a010ff8fdc108dd9c1e11619a8e79dc7c11eff9dd0537ec0077855166203fc7f48a0627d446df35d4d3e0cb89245965099d81fcf77deb10a016d4e822d1ef2d0dc5c",
+        "_info": {
+            "hash": "0xa0374d71e9fb1969afce8669f7956250599bbf7920f853fcb8ae4549cad6b792",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
+            "description": "Test function documentation:\n\nTest sending a transaction where the nonce field of an authorization overflows the maximum\nvalue.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip7702_set_code_tx/test_invalid_tx.py#L145",
+            "fixture_format": "transaction_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_invalid_tx.py::test_invalid_tx_invalid_nonce[fork_Prague-transaction_test-non_zero_address-nonce=2**64]": {
+        "result": {
+            "Prague": {
+                "intrinsicGas": "0x00",
+                "exception": "TransactionException.TYPE_4_INVALID_AUTHORIZATION_FORMAT"
+            }
+        },
+        "txbytes": "0x04f8ca64808007830186a09400000000000000000000000000000000000000008080c0f865f863649400000000000000000000000000000000000000018901000000000000000080a0f3b26babc53dcef29c443062a9e3cb6c2e30d11c87f4d02f89c3845458c7dae4a07beb7215f610c0f693650efe52a0622aa51d76e5139f9e58e4b6e29de3bcc12a80a0ad012d1f3513dc717331bcc1ea587ef2a0bd4c9de4be821ee8a68f6cbe855263a027ce5e23d44279b2a0cbd39f3d99e1d304d1b33ec756bbee59df41a344508788",
+        "_info": {
+            "hash": "0x366102917c48b1b33cb84b192e86d69abd7aa57fd762feae2963b91965e39749",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
+            "description": "Test function documentation:\n\nTest sending a transaction where the nonce field of an authorization overflows the maximum\nvalue.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip7702_set_code_tx/test_invalid_tx.py#L145",
+            "fixture_format": "transaction_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_invalid_tx.py::test_invalid_tx_invalid_nonce[fork_Prague-transaction_test-non_zero_address-nonce=empty-list]": {
+        "result": {
+            "Prague": {
+                "intrinsicGas": "0x00",
+                "exception": "TransactionException.TYPE_4_INVALID_AUTHORIZATION_FORMAT"
+            }
+        },
+        "txbytes": "0x04f8c164808007830186a09400000000000000000000000000000000000000008080c0f85cf85a64940000000000000000000000000000000000000001c001a04fb681c1218e9096815221df88b492a98a778bb3074131a9f03f6a445cd11488a03f2cf0d6030299e2adbba7889e2d6434baf79a058fbca62bf89fc96985c2500701a089aa493026c579f9d3180b41e0dd66aa751b162e24d00a08df77759144ed23d2a059f3693d051a8936f7c2fb9e0c711ae971a33144de47c05b4fd9384c8c2df05f",
+        "_info": {
+            "hash": "0x690745de93ce957e723702ea066a5284567abb858b22ef548b8f64510125e563",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
+            "description": "Test function documentation:\n\nTest sending a transaction where the nonce field of an authorization overflows the maximum\nvalue.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip7702_set_code_tx/test_invalid_tx.py#L145",
+            "fixture_format": "transaction_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_invalid_tx.py::test_invalid_tx_invalid_nonce[fork_Prague-transaction_test-non_zero_address-nonce=non-empty-list]": {
+        "result": {
+            "Prague": {
+                "intrinsicGas": "0x00",
+                "exception": "TransactionException.TYPE_4_INVALID_AUTHORIZATION_FORMAT"
+            }
+        },
+        "txbytes": "0x04f8c264808007830186a09400000000000000000000000000000000000000008080c0f85df85b64940000000000000000000000000000000000000001c18001a07e9bdc2baa7bb3afa5a6ce42860045fed7b628b77ecdc63907ac0581a77e607ca07e45eefe99cca9613ec65a894dadafdebf9ecbcc57be6d2a3a53ba99e25ea60480a09b59e6f0f4e7bc4a5aacfd5dce94db90573cc8070959d2f36815c5adf13c7715a079665a4c1da28897f90d07452eaba73f2f4ad70b4413e042532a9804d6afc7dd",
+        "_info": {
+            "hash": "0x6bc725e0ceb8902462bb44cffa3f81cb64745947a7caaadd0bcd64c60b576850",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
+            "description": "Test function documentation:\n\nTest sending a transaction where the nonce field of an authorization overflows the maximum\nvalue.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip7702_set_code_tx/test_invalid_tx.py#L145",
+            "fixture_format": "transaction_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_invalid_tx.py::test_invalid_tx_invalid_nonce[fork_Prague-transaction_test-reset_delegation_address-nonce=2**256]": {
+        "result": {
+            "Prague": {
+                "intrinsicGas": "0x00",
+                "exception": "TransactionException.TYPE_4_INVALID_AUTHORIZATION_FORMAT"
+            }
+        },
+        "txbytes": "0x04f8e264808007830186a09400000000000000000000000000000000000000008080c0f87df87b64940000000000000000000000000000000000000000a101000000000000000000000000000000000000000000000000000000000000000001a01bf7cfe801b97c91629f52ccb7a2def57163832d3ea9aaef868c565de0b16277a01703bc652ea843376c0b22b32afa1cb94d7b9dca9523103f32fe0c86c212bca601a0cd52f14b9995d190cdd9dcf7ca16578c064510d84d0761bace0ff997fa3217a9a040dc771ca6e954b041b0babccc5e6b2c95f954c8837f5963d2c00603f5cb03ff",
+        "_info": {
+            "hash": "0x5634970c6881f9cba25db006ba311a271c4afbf2c003261a161aed48d8ea493a",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
+            "description": "Test function documentation:\n\nTest sending a transaction where the nonce field of an authorization overflows the maximum\nvalue.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip7702_set_code_tx/test_invalid_tx.py#L145",
+            "fixture_format": "transaction_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_invalid_tx.py::test_invalid_tx_invalid_nonce[fork_Prague-transaction_test-reset_delegation_address-nonce=2**64]": {
+        "result": {
+            "Prague": {
+                "intrinsicGas": "0x00",
+                "exception": "TransactionException.TYPE_4_INVALID_AUTHORIZATION_FORMAT"
+            }
+        },
+        "txbytes": "0x04f8ca64808007830186a09400000000000000000000000000000000000000008080c0f865f863649400000000000000000000000000000000000000008901000000000000000001a06cb73d5d1b6321de2425364a35b9e3262b9bb639fe14dce700cab9b662bd1881a02715bfba4421cd969f3bc84b5a3457f7c7d0090689c40be0d95ac449b38db06d80a0825407fd08165f90f99984e04b74e3765d550b4a49dccea9803170e868cdb9d7a00c89cc6a4a266a4cbaceffae1069fe6ce533f6e65ab77ade5506e29a485a61f2",
+        "_info": {
+            "hash": "0x3e4c25b97545de2d8f81abd2914d4dc997bcb6623a929ed6a376c1070c66f734",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
+            "description": "Test function documentation:\n\nTest sending a transaction where the nonce field of an authorization overflows the maximum\nvalue.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip7702_set_code_tx/test_invalid_tx.py#L145",
+            "fixture_format": "transaction_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_invalid_tx.py::test_invalid_tx_invalid_nonce[fork_Prague-transaction_test-reset_delegation_address-nonce=empty-list]": {
+        "result": {
+            "Prague": {
+                "intrinsicGas": "0x00",
+                "exception": "TransactionException.TYPE_4_INVALID_AUTHORIZATION_FORMAT"
+            }
+        },
+        "txbytes": "0x04f8c164808007830186a09400000000000000000000000000000000000000008080c0f85cf85a64940000000000000000000000000000000000000000c001a091ebd6f99c3e2e021097ff6deb9e70d7e2c67a2b50280ba53fc8993540b96399a03358db62c583e3d491fc7fadc200d2c6c7783490ddbdacb79817807fb059a2ab80a0038141e3ecd437e798637d171f55984489ad2abe46c0f120273f5ae6e53c14aca031ca7ae86d537d69efd05da1eff856ccf19867880377c841bcf89de4e35dc0bb",
+        "_info": {
+            "hash": "0xea7f9b2832dbf0331e48bddc3e343f6be2773291cf27f4b11acb57ba88767b2b",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
+            "description": "Test function documentation:\n\nTest sending a transaction where the nonce field of an authorization overflows the maximum\nvalue.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip7702_set_code_tx/test_invalid_tx.py#L145",
+            "fixture_format": "transaction_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_invalid_tx.py::test_invalid_tx_invalid_nonce[fork_Prague-transaction_test-reset_delegation_address-nonce=non-empty-list]": {
+        "result": {
+            "Prague": {
+                "intrinsicGas": "0x00",
+                "exception": "TransactionException.TYPE_4_INVALID_AUTHORIZATION_FORMAT"
+            }
+        },
+        "txbytes": "0x04f8c264808007830186a09400000000000000000000000000000000000000008080c0f85df85b64940000000000000000000000000000000000000000c18001a0085be4d0291cd0d9561f08c68538e70341a81d8f2e3920bcc47bc2c93cab8e33a002d4d8cb7f48f64c7ad2cf01e344a251c915020ca9be20962a5b30c12c163a3101a0472cefa2434970a907a7cb07bc1e75d1488fcef0bb9c382970f6474003fe2efca06469753c885a45504223c9f264f748ea0314a3075b6044ad8abe907c7265ecbc",
+        "_info": {
+            "hash": "0xce4a36658371ff2a1a8d12fe2ad0d33c4eff4fe54ce0e6f440faa761ec952627",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "Nethermind EVM version: 1.0.0.0",
+            "description": "Test function documentation:\n\nTest sending a transaction where the nonce field of an authorization overflows the maximum\nvalue.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/7c1f4f84adb59b692ca088817d760c804822b23b/tests/prague/eip7702_set_code_tx/test_invalid_tx.py#L145",
+            "fixture_format": "transaction_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    }
+}
