@@ -36,7 +36,12 @@ jobs:
         cd execution-spec-tests-gnosis
         uv sync --all-extras
         uv run solc-select use 0.8.24 --always-install
-        
+    - name: Free up disk space
+      uses: jlumbroso/free-disk-space@main
+      with:
+        large-packages: false
+        tool-cache: false
+ 
     - name: Clone Nethermind repository
       run: |
         git clone https://github.com/NethermindEth/nethermind.git
