@@ -41,7 +41,7 @@ jobs:
       run: |
         git clone https://github.com/NethermindEth/nethermind.git
         cd nethermind
-        git checkout t8n-test
+        git checkout feature/t8n-test
       
     - name: Build Nethermind projects
       run: |
@@ -59,8 +59,12 @@ jobs:
     - name: Run test generation
       run: |
         cd $GITHUB_WORKSPACE/execution-spec-tests-gnosis
-        # If testname is not provided via workflow_dispatch, use a default value
-        TEST_NAME="${{ github.event.inputs.testname || 'default_test' }}"
+        # Set default test name
+        TEST_NAME="default_test"
+        # Override with input if provided
+        if [ ! -z "${{ github.event.inputs.testname }}" ]; then
+          TEST_NAME="${{ github.event.inputs.testname }}"
+        fi
         # Configure execution-spec-tests to use Nethermind's EVM
         export EVM_PATH="$GITHUB_WORKSPACE/nethermind/tools/artifacts/bin/Evm/debug/Evm"
         uv run fill -k "$TEST_NAME"
@@ -74,7 +78,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         commit-message: Auto-generate test cases
-        title: 'Auto-generate test cases for ${{ github.event.inputs.testname || "default_test" }}'
+        title: 'Auto-generate test cases'
         body: |
           This PR contains automatically generated test cases using Nethermind's t8n-test branch.
           
