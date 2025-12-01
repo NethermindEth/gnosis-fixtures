@@ -1,0 +1,846 @@
+{
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Cancun-blockchain_test_engine_x_from_state_test-exact_gas]": {
+        "network": "Cancun",
+        "lastblockhash": "0x49d839c39f0528c836660de514a8aeb607b32be526b3398e3303168e639524f4",
+        "config": {
+            "network": "Cancun",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                }
+            }
+        },
+        "preHash": "0xd451165ba1388dbf",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0xe8ec649a626737820a279b56c59d8401b1a84d121b19a1c2e6de2b14638233a5",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0xa7802da148fe16cd11d2db9653d8f26f691291a0071574f3994002519be4414d",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0x49d839c39f0528c836660de514a8aeb607b32be526b3398e3303168e639524f4",
+                        "transactions": [
+                            "0xf90115800a83022e6e94adfc61d1f30fa34bd7eb25547512cd4c1a4d1e2080b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060726a0ba5373a6d9b03cd974fe8b63ff0173875701284e501e2122a58c862a64eab236a00665c696701f1e99c754e96c5e40e1b2533886cba3b0665e882af4ae315d643d"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "newPayloadVersion": "3",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0x777d18a4ffc63b4d179e2007c92dde94daeeadb9ca38c8c99914d053df4af78e",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Cancun-blockchain_test_engine_x_from_state_test-excessive_gas]": {
+        "network": "Cancun",
+        "lastblockhash": "0x472e50955ec1b23708155dbe2daf2d599a5b2d736710426ba48cffb791cc09bc",
+        "config": {
+            "network": "Cancun",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                }
+            }
+        },
+        "preHash": "0xd451165ba1388dbf",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0xe8ec649a626737820a279b56c59d8401b1a84d121b19a1c2e6de2b14638233a5",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0xc65dae9714fd7c893b6285f37038af024626ec0fa318454431b0bc7c3c383f4f",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0x472e50955ec1b23708155dbe2daf2d599a5b2d736710426ba48cffb791cc09bc",
+                        "transactions": [
+                            "0xf90115800a83022e6e94c2b82becedc59c73d4fd90c7a762f25afbe1adf480b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060725a0d2d51170e50ef77d102caf305bf3f5dd45d95e22dbadbc92ccf70409ec16e129a01c7330cce723b0f59c9c34eb4df587f1a03f1856a40c5c1c70b11f7b4706152b"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "newPayloadVersion": "3",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0x844d2f87ba816e36f0444543d3f004092e77f93d42e16eed0317b2a4c266b97e",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Cancun-blockchain_test_engine_x_from_state_test-extra_gas]": {
+        "network": "Cancun",
+        "lastblockhash": "0xfbf1b44e2b23a62691a11ccca9d0b4ec4e3308c3db3e874f401c3b0442d7cf3c",
+        "config": {
+            "network": "Cancun",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                }
+            }
+        },
+        "preHash": "0xd451165ba1388dbf",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0xe8ec649a626737820a279b56c59d8401b1a84d121b19a1c2e6de2b14638233a5",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0xc7e26eea89a73ff7aa60ce98cd38dee8fbbcfe5e45b60934f91feba488736494",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0xfbf1b44e2b23a62691a11ccca9d0b4ec4e3308c3db3e874f401c3b0442d7cf3c",
+                        "transactions": [
+                            "0xf90115800a83022e6e94f5203a6d5ce95886df19d902913a16af47017d2780b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060726a066ffda690d74040a93260aeb238707047bbf656ade44d44c0ef8c6732dd79317a028defe225d7239b8c087d5158476c4e8eaf42ef4ed7fcf80df553403b9a0c02a"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "newPayloadVersion": "3",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0x4ab4dc89c68008e80149bba1e4b54110f51623c27f9f7f7a8abf1a89912cddbe",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Cancun-blockchain_test_engine_x_from_state_test-insufficient_gas]": {
+        "network": "Cancun",
+        "lastblockhash": "0xa1dbc4e4575e7fd3d78e9ce88397c1c1c6f1460ab2690857d641fa7cae71c1d7",
+        "config": {
+            "network": "Cancun",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                }
+            }
+        },
+        "preHash": "0xd451165ba1388dbf",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0xe8ec649a626737820a279b56c59d8401b1a84d121b19a1c2e6de2b14638233a5",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0xfd6650c177fd00f38bbba942499226c6512ca16770afbd1ad092faa9129d6ded",
+                        "receiptsRoot": "0x18d39e7721941138d458e00fd783c535d5a687d8f15957f8d56b71d80280d571",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x6b81",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0xa1dbc4e4575e7fd3d78e9ce88397c1c1c6f1460ab2690857d641fa7cae71c1d7",
+                        "transactions": [
+                            "0xf90115800a8301e04e94495f3c95295c505eb32a7c0a344874473c83b71180b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060725a02f6e19af9c9a5927879f9492f5f3cf1c76ab08c5e818e1712d1682167f42d4f9a074f68eb988707b414ec33a7dc13bae98669959789f97647313e6c6c5742e057d"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "newPayloadVersion": "3",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0x20aa5166dd87f0ab74c90a19dbd7b4ab40062466700f4144cedb779e419cb71e",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Paris-blockchain_test_engine_x_from_state_test-exact_gas]": {
+        "network": "Paris",
+        "lastblockhash": "0x66d0bc7da6ed487a9fd21cd0fe58c4be8563061105f985b06faad6d688d6f437",
+        "config": {
+            "network": "Paris",
+            "chainid": "0x01"
+        },
+        "preHash": "0x3c8f0acaa94f9b1d",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x64bd6093e79c6af8ed87e3e67108570cf613d4395fa3a5300c94de4ff88a9c45",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x33c5272f842310547914e8bf0408a194f18d4c3c3b4aa2e63e9c23e31f0e5081",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blockHash": "0x66d0bc7da6ed487a9fd21cd0fe58c4be8563061105f985b06faad6d688d6f437",
+                        "transactions": [
+                            "0xf90115800a83022e6e94adfc61d1f30fa34bd7eb25547512cd4c1a4d1e2080b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060726a0ba5373a6d9b03cd974fe8b63ff0173875701284e501e2122a58c862a64eab236a00665c696701f1e99c754e96c5e40e1b2533886cba3b0665e882af4ae315d643d"
+                        ]
+                    }
+                ],
+                "newPayloadVersion": "1",
+                "forkchoiceUpdatedVersion": "1"
+            }
+        ],
+        "_info": {
+            "hash": "0x185fc4f34076e339a6f77f633b10ded7aadcdf59ad21bd7a7a5514f9fe975f5f",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Paris-blockchain_test_engine_x_from_state_test-excessive_gas]": {
+        "network": "Paris",
+        "lastblockhash": "0x4b95b8adbea89e8e40ae4330b2b093c888d2fec02b03dc3efa2a86a6da4e4019",
+        "config": {
+            "network": "Paris",
+            "chainid": "0x01"
+        },
+        "preHash": "0x3c8f0acaa94f9b1d",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x64bd6093e79c6af8ed87e3e67108570cf613d4395fa3a5300c94de4ff88a9c45",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x934506eb8c618aad9747cb2c3fb81663fc24e8d54101aca8835c1e6479254743",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blockHash": "0x4b95b8adbea89e8e40ae4330b2b093c888d2fec02b03dc3efa2a86a6da4e4019",
+                        "transactions": [
+                            "0xf90115800a83022e6e94c2b82becedc59c73d4fd90c7a762f25afbe1adf480b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060725a0d2d51170e50ef77d102caf305bf3f5dd45d95e22dbadbc92ccf70409ec16e129a01c7330cce723b0f59c9c34eb4df587f1a03f1856a40c5c1c70b11f7b4706152b"
+                        ]
+                    }
+                ],
+                "newPayloadVersion": "1",
+                "forkchoiceUpdatedVersion": "1"
+            }
+        ],
+        "_info": {
+            "hash": "0x427da0e0f21749c4086b84743a0121bc549209d84d06f2a195993ba7b24f5b30",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Paris-blockchain_test_engine_x_from_state_test-extra_gas]": {
+        "network": "Paris",
+        "lastblockhash": "0x2fab670c0622f6ef1918c2f6ee7267bb76527cfb0f1fefa6798523dacc6ecded",
+        "config": {
+            "network": "Paris",
+            "chainid": "0x01"
+        },
+        "preHash": "0x3c8f0acaa94f9b1d",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x64bd6093e79c6af8ed87e3e67108570cf613d4395fa3a5300c94de4ff88a9c45",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0xeb9755319045ce86d77d3286088fdb55ce8ce168ed549646b2b1ace0651c09d4",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blockHash": "0x2fab670c0622f6ef1918c2f6ee7267bb76527cfb0f1fefa6798523dacc6ecded",
+                        "transactions": [
+                            "0xf90115800a83022e6e94f5203a6d5ce95886df19d902913a16af47017d2780b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060726a066ffda690d74040a93260aeb238707047bbf656ade44d44c0ef8c6732dd79317a028defe225d7239b8c087d5158476c4e8eaf42ef4ed7fcf80df553403b9a0c02a"
+                        ]
+                    }
+                ],
+                "newPayloadVersion": "1",
+                "forkchoiceUpdatedVersion": "1"
+            }
+        ],
+        "_info": {
+            "hash": "0x0e21d06586d571a733f6438a74eac35b6d715d3462a34d73406d2f45073764c4",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Paris-blockchain_test_engine_x_from_state_test-insufficient_gas]": {
+        "network": "Paris",
+        "lastblockhash": "0x427493fab752ef93b7bdf0df43b041a55d90225e5d2d09fc801131c7c6e0d951",
+        "config": {
+            "network": "Paris",
+            "chainid": "0x01"
+        },
+        "preHash": "0x3c8f0acaa94f9b1d",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x64bd6093e79c6af8ed87e3e67108570cf613d4395fa3a5300c94de4ff88a9c45",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0xcd8bfa15b457cf6ba49124c7574067e4673b49e6b31eaae5bd44af5929dae1b5",
+                        "receiptsRoot": "0x18d39e7721941138d458e00fd783c535d5a687d8f15957f8d56b71d80280d571",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x6b81",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blockHash": "0x427493fab752ef93b7bdf0df43b041a55d90225e5d2d09fc801131c7c6e0d951",
+                        "transactions": [
+                            "0xf90115800a8301e04e94495f3c95295c505eb32a7c0a344874473c83b71180b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060725a02f6e19af9c9a5927879f9492f5f3cf1c76ab08c5e818e1712d1682167f42d4f9a074f68eb988707b414ec33a7dc13bae98669959789f97647313e6c6c5742e057d"
+                        ]
+                    }
+                ],
+                "newPayloadVersion": "1",
+                "forkchoiceUpdatedVersion": "1"
+            }
+        ],
+        "_info": {
+            "hash": "0x1833038aaa065abcdd3e48b132392f2b6f9f146ad84f10c4d33bc149ef968912",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Prague-blockchain_test_engine_x_from_state_test-exact_gas]": {
+        "network": "Prague",
+        "lastblockhash": "0xeb607de482925afefcf2a34a2f27e2e33770312231f75ececc046d1a4ef482ba",
+        "config": {
+            "network": "Prague",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
+        "preHash": "0x680be093b9b276d3",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x5602c6cb634bbbccd514a922e3d98a79230e051ae76f79465329238db4f93dc1",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x71e0b723748f69cd0281c12542b02b1ad5f071a69d95e1aec8a23688ac756599",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0xeb607de482925afefcf2a34a2f27e2e33770312231f75ececc046d1a4ef482ba",
+                        "transactions": [
+                            "0xf90115800a830238a094adfc61d1f30fa34bd7eb25547512cd4c1a4d1e2080b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060725a00959b155af26accc54e7790391e4f34f31ffa71e5c60e37c58a9e2a5a181cd96a00252c4b1717e67f2b20e3a1796efa61449a1ff726b8212612965c1b069872ed6"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    []
+                ],
+                "newPayloadVersion": "4",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0xc77199672c17e0768668bcb18b377d77aa58ccb3505f3819eee0c5d7a15503f9",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Prague-blockchain_test_engine_x_from_state_test-excessive_gas]": {
+        "network": "Prague",
+        "lastblockhash": "0x63d3ddd3de4543f3f1ea14d98fb6190f35183464673f49f8e8d1c7d10bf67fd6",
+        "config": {
+            "network": "Prague",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
+        "preHash": "0x680be093b9b276d3",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x5602c6cb634bbbccd514a922e3d98a79230e051ae76f79465329238db4f93dc1",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0xbd9782ccdf09ed070bfd3488d7c959fefaec2e725ced66f5960b117a75e77efd",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0x63d3ddd3de4543f3f1ea14d98fb6190f35183464673f49f8e8d1c7d10bf67fd6",
+                        "transactions": [
+                            "0xf90115800a830238a094c2b82becedc59c73d4fd90c7a762f25afbe1adf480b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060726a09f33d6bae4c07ca8a1bedee6029daeb3672899e79a17930edf0e5e5acedfbbd8a05f9a11d9684c2982103d9ef49659705b1ff79bcfd81c71247a2de175897f6152"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    []
+                ],
+                "newPayloadVersion": "4",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0xc968d875fa1038ee75390940c59857bdd3d7a87731167e7ec30ebad1ce876891",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Prague-blockchain_test_engine_x_from_state_test-extra_gas]": {
+        "network": "Prague",
+        "lastblockhash": "0xc8d0dc06a03b62cf7dc2a2f524d8c1d1af6836c301ac86ac1838d0d1f99d707f",
+        "config": {
+            "network": "Prague",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
+        "preHash": "0x680be093b9b276d3",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x5602c6cb634bbbccd514a922e3d98a79230e051ae76f79465329238db4f93dc1",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x80cdfb9f546d8809e226f44803239e275b1890ea3a768be009045b19e4bdaa70",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0xc8d0dc06a03b62cf7dc2a2f524d8c1d1af6836c301ac86ac1838d0d1f99d707f",
+                        "transactions": [
+                            "0xf90115800a830238a094f5203a6d5ce95886df19d902913a16af47017d2780b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060725a0308f50f654c73d9c197beba799d953e2092c521fd6412ed30005cc0a6dca8e3ba0233c07ac4cf5cdac9103ce81728080ec6207883278de1afbd8b0eb46d862f5b7"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    []
+                ],
+                "newPayloadVersion": "4",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0xec720aeec2411ac4f8ec59e04b8bc43fb24507f55bb681a00e0abfec48345bfa",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Prague-blockchain_test_engine_x_from_state_test-insufficient_gas]": {
+        "network": "Prague",
+        "lastblockhash": "0x54edcea1ed51106ad789c72f77722813e354205c4a293c557fbd636d288e5b85",
+        "config": {
+            "network": "Prague",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
+        "preHash": "0x680be093b9b276d3",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x5602c6cb634bbbccd514a922e3d98a79230e051ae76f79465329238db4f93dc1",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x1ccb5b1edede2ba8a86cba8e43fcf90cc20a0686ed337780410b48e5efb3694b",
+                        "receiptsRoot": "0x18d39e7721941138d458e00fd783c535d5a687d8f15957f8d56b71d80280d571",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x6b81",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0x54edcea1ed51106ad789c72f77722813e354205c4a293c557fbd636d288e5b85",
+                        "transactions": [
+                            "0xf90115800a8301ea8094495f3c95295c505eb32a7c0a344874473c83b71180b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060725a0ba35cf9191450bb53cf65388a05ec9fd230d73ae04c0b9655822ab779f83d81da04fb64d2aad29df65722b591e73203fafac21cd8419933976e837ef42feb977a9"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    []
+                ],
+                "newPayloadVersion": "4",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0x672e1c2d1161af4243f2de5446531363c378aa2d4d3762ae188f592924fae039",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Shanghai-blockchain_test_engine_x_from_state_test-exact_gas]": {
+        "network": "Shanghai",
+        "lastblockhash": "0xa8935a6988970aa5870848b1d4b7eeae6c857b80a1db48dd3daa8c499e384153",
+        "config": {
+            "network": "Shanghai",
+            "chainid": "0x01"
+        },
+        "preHash": "0x33b12b85f9ffc168",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x4476dba73c7b7cf15a9a1ea52873d25645df6a3a6c81430d0d93861e6e2bcd47",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x33c5272f842310547914e8bf0408a194f18d4c3c3b4aa2e63e9c23e31f0e5081",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blockHash": "0xa8935a6988970aa5870848b1d4b7eeae6c857b80a1db48dd3daa8c499e384153",
+                        "transactions": [
+                            "0xf90115800a83022e6e94adfc61d1f30fa34bd7eb25547512cd4c1a4d1e2080b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060726a0ba5373a6d9b03cd974fe8b63ff0173875701284e501e2122a58c862a64eab236a00665c696701f1e99c754e96c5e40e1b2533886cba3b0665e882af4ae315d643d"
+                        ],
+                        "withdrawals": []
+                    }
+                ],
+                "newPayloadVersion": "2",
+                "forkchoiceUpdatedVersion": "2"
+            }
+        ],
+        "_info": {
+            "hash": "0x9a8478223045e9608135dce07f4f32135e2150796915e0e993fb7d36001b537a",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Shanghai-blockchain_test_engine_x_from_state_test-excessive_gas]": {
+        "network": "Shanghai",
+        "lastblockhash": "0x36cfb0a694ee94d4c96394b9394a943ab9772d7ea7ac03fd6f7e106d7b259a51",
+        "config": {
+            "network": "Shanghai",
+            "chainid": "0x01"
+        },
+        "preHash": "0x33b12b85f9ffc168",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x4476dba73c7b7cf15a9a1ea52873d25645df6a3a6c81430d0d93861e6e2bcd47",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x934506eb8c618aad9747cb2c3fb81663fc24e8d54101aca8835c1e6479254743",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blockHash": "0x36cfb0a694ee94d4c96394b9394a943ab9772d7ea7ac03fd6f7e106d7b259a51",
+                        "transactions": [
+                            "0xf90115800a83022e6e94c2b82becedc59c73d4fd90c7a762f25afbe1adf480b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060725a0d2d51170e50ef77d102caf305bf3f5dd45d95e22dbadbc92ccf70409ec16e129a01c7330cce723b0f59c9c34eb4df587f1a03f1856a40c5c1c70b11f7b4706152b"
+                        ],
+                        "withdrawals": []
+                    }
+                ],
+                "newPayloadVersion": "2",
+                "forkchoiceUpdatedVersion": "2"
+            }
+        ],
+        "_info": {
+            "hash": "0xe093b31dc5e33741d64a9f5dd8d8ad08152339cffe25979f07f3cb1e185f86ef",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Shanghai-blockchain_test_engine_x_from_state_test-extra_gas]": {
+        "network": "Shanghai",
+        "lastblockhash": "0xc99fc07a0e475b3d66829da66ebf0d4fd12d40cb867c842b559dcd3b0d8b6e6d",
+        "config": {
+            "network": "Shanghai",
+            "chainid": "0x01"
+        },
+        "preHash": "0x33b12b85f9ffc168",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x4476dba73c7b7cf15a9a1ea52873d25645df6a3a6c81430d0d93861e6e2bcd47",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0xeb9755319045ce86d77d3286088fdb55ce8ce168ed549646b2b1ace0651c09d4",
+                        "receiptsRoot": "0x0df53ea30262ade984def3d5a89475ed0650ef632952b6159fb56759743c1f0c",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x1b3f4",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blockHash": "0xc99fc07a0e475b3d66829da66ebf0d4fd12d40cb867c842b559dcd3b0d8b6e6d",
+                        "transactions": [
+                            "0xf90115800a83022e6e94f5203a6d5ce95886df19d902913a16af47017d2780b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060726a066ffda690d74040a93260aeb238707047bbf656ade44d44c0ef8c6732dd79317a028defe225d7239b8c087d5158476c4e8eaf42ef4ed7fcf80df553403b9a0c02a"
+                        ],
+                        "withdrawals": []
+                    }
+                ],
+                "newPayloadVersion": "2",
+                "forkchoiceUpdatedVersion": "2"
+            }
+        ],
+        "_info": {
+            "hash": "0x810aa8120668a72c438e2e445a1acc2a73b1d4c0c9ea8f66a9bfd07de62bf1b0",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    },
+    "tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py::test_modexp_gas_usage_contract_wrapper[fork_Shanghai-blockchain_test_engine_x_from_state_test-insufficient_gas]": {
+        "network": "Shanghai",
+        "lastblockhash": "0x312fd7f6567025d361d0dde3aa39689276c59c94fb73cca98feb5cc4a5f39137",
+        "config": {
+            "network": "Shanghai",
+            "chainid": "0x01"
+        },
+        "preHash": "0x33b12b85f9ffc168",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x4476dba73c7b7cf15a9a1ea52873d25645df6a3a6c81430d0d93861e6e2bcd47",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0xcd8bfa15b457cf6ba49124c7574067e4673b49e6b31eaae5bd44af5929dae1b5",
+                        "receiptsRoot": "0x18d39e7721941138d458e00fd783c535d5a687d8f15957f8d56b71d80280d571",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x55d4a80",
+                        "gasUsed": "0x6b81",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blockHash": "0x312fd7f6567025d361d0dde3aa39689276c59c94fb73cca98feb5cc4a5f39137",
+                        "transactions": [
+                            "0xf90115800a8301e04e94495f3c95295c505eb32a7c0a344874473c83b71180b8b4000000000000000000000000000000000000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028e8e77626586f73b955364c7b4bbf0bb7f7685ebd40e852b164633a4acbd3244c000102030405060701fffffff01681d2220bfea4bb888a5543db8c0916274ddb1ea93b144c042c01d8164c95000102030405060725a02f6e19af9c9a5927879f9492f5f3cf1c76ab08c5e818e1712d1682167f42d4f9a074f68eb988707b414ec33a7dc13bae98669959789f97647313e6c6c5742e057d"
+                        ],
+                        "withdrawals": []
+                    }
+                ],
+                "newPayloadVersion": "2",
+                "forkchoiceUpdatedVersion": "2"
+            }
+        ],
+        "_info": {
+            "hash": "0xebffaf5763f88717461c4d958c0b655f39a0423d1047de25b5d029dca64b0b0b",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test ModExp gas cost with different gas modifiers using contract wrapper\n    calls.",
+            "url": "https://github.com/ethereum/execution-specs/blob/47d86f1468b709e70fdf2663963aca8312beee9a/tests/osaka/eip7883_modexp_gas_increase/test_modexp_thresholds.py#L218",
+            "fixture-format": "blockchain_test_engine_x",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7883.md",
+            "reference-spec-version": "13aa65810336d4f243d4563a828d5afe36035d23"
+        }
+    }
+}
