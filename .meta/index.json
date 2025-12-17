@@ -1,0 +1,288 @@
+{
+  "root_hash": "0x49b0c4c2d713dda1a555a07c5da69baf1e16bd3020c757dbc559807487ed7d53",
+  "created_at": "2025-12-17T14:58:37.452829",
+  "test_count": 34,
+  "forks": [
+    "Osaka",
+    "PragueToOsakaAtTime15k"
+  ],
+  "fixture_formats": [
+    "state_test",
+    "blockchain_test",
+    "blockchain_test_engine"
+  ],
+  "test_cases": [
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_1-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0x8ea56f4f688aa0e3b31f485da098f83f00b12a361537d81ec2a14f30aa77b7ed",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_2-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0xc4b4348269ffcf3e0a0970d843bf0a9002a4c2f3b1fdfa3a9349bc5369a23359",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_3-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0xb86da272af4187c561989983b6f38c99a77acc0e32c36ac2c1e7c8620d577f7c",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_4-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0xfdfe86679cede9eba6842f8b0cbb575f356b18dad05e234b0a6962e30b7b08a2",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_5-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0x7b4e9e578d5687b4c895231f6d856ea239d1c9406a67b664d1f46c39e480e577",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_6-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0xc4152f24e6d97d90a163df2fae029d075abb6dbcdd0bdff1b924ceb7f00469f2",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_10-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0x54c8cf87ec92a1bd3a574696a33fc694b6d7600913c2683f72b608113105759c",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_7-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0x2310abdca9647fffef2c93608eb48949552d5eae93463d139c754d92b37eda06",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_8-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0xfc0e05c841761abfa246a458c53fcaf07406d7b378cf1c29479934422e4a3c4f",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_9-blockchain_test_engine_from_state_test]",
+      "fixture_hash": "0x2d363cfff412a5da783a24a0ccd62601cab044ce252921880e7cd7eca67d88eb",
+      "fork": "Osaka",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_max_blobs_per_tx_fork_transition[fork_PragueToOsakaAtTime15k-blob_count_10-blockchain_test_engine]",
+      "fixture_hash": "0x8d1c0ce70c3e17ec3d2b1d9c674dc752949065a39b880804ea2c02fb71162e2f",
+      "fork": "PragueToOsakaAtTime15k",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/max_blobs_per_tx_fork_transition.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_max_blobs_per_tx_fork_transition[fork_PragueToOsakaAtTime15k-blob_count_7-blockchain_test_engine]",
+      "fixture_hash": "0xf485ff12ef1202cdef9145f83196069ec1d5ba34a62d3b74a30200ede94f7c7",
+      "fork": "PragueToOsakaAtTime15k",
+      "format": "blockchain_test_engine",
+      "pre_hash": null,
+      "json_path": "blockchain_tests_engine/osaka/eip7594_peerdas/max_blob_per_tx/max_blobs_per_tx_fork_transition.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_1-state_test]",
+      "fixture_hash": "0xacca3b7e4c0a14175d4dd3a4646f34cb9ade293f43b72fdb1d3d56ab5430811e",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_2-state_test]",
+      "fixture_hash": "0xbb75882e7d3dfce201234aa65f27dec66ed732c19474eb011537545dc73b9e1",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_3-state_test]",
+      "fixture_hash": "0xb0a038a6cd7b9d4f4c5232f3dd1a70ed4f4dffb7d381199346e68ee74637578f",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_4-state_test]",
+      "fixture_hash": "0x42989295da7d168e632bfa3e71264f242fdac3e91092972048cb7e8e03b50601",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_5-state_test]",
+      "fixture_hash": "0x5e02515d2e1bb640ee6f207fb7aca4f8d6acfa818224d03e894d6e6677942aab",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_6-state_test]",
+      "fixture_hash": "0x5aae422953e8159385a8e864d25065fa5689c7ec58cf7dfcef1af60c45c946dd",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_10-state_test]",
+      "fixture_hash": "0x3919b360925471b7c89830de5a26f9fc46df4b5eb7a1c3ed773fb3abb608697f",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_7-state_test]",
+      "fixture_hash": "0x3c759eb941a76c0eb212b9a7fc51acb5aa598ef3396c3fc5dfcf713c59d23b7b",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_8-state_test]",
+      "fixture_hash": "0x66b9b7cf3ff0c9e07b6cd435ae46c4e45082e5cfe0e272a4c29b12540d45286",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_9-state_test]",
+      "fixture_hash": "0xcdc5cdbed48af7c0889e79410b786c984a5b2843619093ec33dfc3601233f6d6",
+      "fork": "Osaka",
+      "format": "state_test",
+      "pre_hash": null,
+      "json_path": "state_tests/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_1-blockchain_test_from_state_test]",
+      "fixture_hash": "0x6a8efeca29fa9124dc3de89e71f42114fe1634dbb5f0d6795f5b8556c0d4ad51",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_2-blockchain_test_from_state_test]",
+      "fixture_hash": "0x5d632a0ee10934dc8ce2c5aabee5579ea186c9f6234b919eb3d89736b6b43bac",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_3-blockchain_test_from_state_test]",
+      "fixture_hash": "0x42ee032225ba8d133e10c18231a191a84f1db845b15c49ac038802ffadfdfbec",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_4-blockchain_test_from_state_test]",
+      "fixture_hash": "0xede37d96ce1515bbb1162f05a4ba0826908db7639a2fa8dbbef8ad5f8f9bd33f",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_5-blockchain_test_from_state_test]",
+      "fixture_hash": "0x7cb2c42797b092f6cfb839f39c6b3e2cebf05027588dbb7223cd7ba8c5eebd1b",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_valid_max_blobs_per_tx[fork_Osaka-blob_count_6-blockchain_test_from_state_test]",
+      "fixture_hash": "0xa290d2197cc00ae57639f31fd000acc5a3101b74fe7b08e0507cb6788595cf77",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/valid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_10-blockchain_test_from_state_test]",
+      "fixture_hash": "0xb43918c013160dd32808911da13afc93e6a0c3d0c00120ff3593afd9705a448d",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_7-blockchain_test_from_state_test]",
+      "fixture_hash": "0x727062c52a30083d93dfb465ec3e4178e480a0fce64d5b2f4cc2cc320f7d74a3",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_8-blockchain_test_from_state_test]",
+      "fixture_hash": "0x4101e08fbe65c32c2348ef92f6863d4c0e6b3971b4615241f0acbbce046f3775",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_9-blockchain_test_from_state_test]",
+      "fixture_hash": "0x2c52d0c6324a9d8fbec158fc095cab19a70f620aec9fb2107fe2eff0c8f55cf0",
+      "fork": "Osaka",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/invalid_max_blobs_per_tx.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_max_blobs_per_tx_fork_transition[fork_PragueToOsakaAtTime15k-blob_count_10-blockchain_test]",
+      "fixture_hash": "0xf602ca4e898808036410c1654224ef35c4db5946162ff6b346cc54c959802e49",
+      "fork": "PragueToOsakaAtTime15k",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/max_blobs_per_tx_fork_transition.json"
+    },
+    {
+      "id": "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_max_blobs_per_tx_fork_transition[fork_PragueToOsakaAtTime15k-blob_count_7-blockchain_test]",
+      "fixture_hash": "0xe5f858bbae93f875aa9581f42bc33543633e6896f4f7acb607875f68d25fe773",
+      "fork": "PragueToOsakaAtTime15k",
+      "format": "blockchain_test",
+      "pre_hash": null,
+      "json_path": "blockchain_tests/osaka/eip7594_peerdas/max_blob_per_tx/max_blobs_per_tx_fork_transition.json"
+    }
+  ]
+}
